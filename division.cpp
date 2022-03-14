@@ -4,12 +4,13 @@ using namespace std;
 int division(int,int);   //function prototype or declaration with parameter
 int main()
 {
-    int num1,num2,result;
+    int number1,number2,result;
     cout<<"Enter two number to find division\n";
-    cin>>num1>>num2;  //Raading the entered two numbers from the user
-    result=division(num1,num2);//assign the output to variable result
+    cin>>number1>>number2;  //Raading the entered two numbers from the user
+    result=division(number1,number2);//assign the output to variable result
     //function call
-     cout << "Division of "<<num1<<" and "<<num2<<" is: " << result<<endl;
+     cout << "Division of "<<number1<<" and "<<number2<<" is: " << result<<endl;
+     cout<<"demo project assignment for github";
     getch();
     return 0;
 }
